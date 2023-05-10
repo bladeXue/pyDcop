@@ -1,0 +1,208 @@
+name: cdcop_random_bird_10_0.6_2
+objective: min
+
+domains:
+  bounded:
+    type: continuous
+    values:
+    - -50.0 .. 50.0
+
+variables:
+  v_0:
+    domain: bounded
+  v_1:
+    domain: bounded
+  v_2:
+    domain: bounded
+  v_3:
+    domain: bounded
+  v_4:
+    domain: bounded
+  v_5:
+    domain: bounded
+  v_6:
+    domain: bounded
+  v_7:
+    domain: bounded
+  v_8:
+    domain: bounded
+  v_9:
+    domain: bounded
+
+constraints:
+  bird_v_0_v_1:
+    function: source.branin(v_0, v_1)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy.py
+    type: intention
+  bird_v_0_v_2:
+    function: source.branin(v_0, v_2)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 2.py
+    type: intention
+  bird_v_0_v_3:
+    function: source.branin(v_0, v_3)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 3.py
+    type: intention
+  bird_v_0_v_4:
+    function: source.branin(v_0, v_4)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 4.py
+    type: intention
+  bird_v_0_v_5:
+    function: source.branin(v_0, v_5)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 5.py
+    type: intention
+  bird_v_0_v_6:
+    function: source.branin(v_0, v_6)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 6.py
+    type: intention
+  bird_v_0_v_7:
+    function: source.branin(v_0, v_7)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 7.py
+    type: intention
+  bird_v_1_v_8:
+    function: source.branin(v_1, v_8)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 8.py
+    type: intention
+  bird_v_1_v_2:
+    function: source.branin(v_1, v_2)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 9.py
+    type: intention
+  bird_v_1_v_3:
+    function: source.branin(v_1, v_3)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 10.py
+    type: intention
+  bird_v_1_v_9:
+    function: source.branin(v_1, v_9)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 11.py
+    type: intention
+  bird_v_2_v_4:
+    function: source.branin(v_2, v_4)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 12.py
+    type: intention
+  bird_v_2_v_5:
+    function: source.branin(v_2, v_5)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 13.py
+    type: intention
+  bird_v_2_v_9:
+    function: source.branin(v_2, v_9)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 14.py
+    type: intention
+  bird_v_3_v_8:
+    function: source.branin(v_3, v_8)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 15.py
+    type: intention
+  bird_v_3_v_4:
+    function: source.branin(v_3, v_4)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 16.py
+    type: intention
+  bird_v_3_v_9:
+    function: source.branin(v_3, v_9)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 17.py
+    type: intention
+  bird_v_3_v_6:
+    function: source.branin(v_3, v_6)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 18.py
+    type: intention
+  bird_v_4_v_9:
+    function: source.branin(v_4, v_9)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 19.py
+    type: intention
+  bird_v_4_v_7:
+    function: source.branin(v_4, v_7)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 20.py
+    type: intention
+  bird_v_5_v_8:
+    function: source.branin(v_5, v_8)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 21.py
+    type: intention
+  bird_v_5_v_9:
+    function: source.branin(v_5, v_9)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 22.py
+    type: intention
+  bird_v_5_v_6:
+    function: source.branin(v_5, v_6)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 23.py
+    type: intention
+  bird_v_5_v_7:
+    function: source.branin(v_5, v_7)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 24.py
+    type: intention
+  bird_v_6_v_8:
+    function: source.branin(v_6, v_8)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 25.py
+    type: intention
+  bird_v_6_v_7:
+    function: source.branin(v_6, v_7)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 26.py
+    type: intention
+  bird_v_7_v_9:
+    function: source.branin(v_7, v_9)
+    properties:
+      Lipschitz_constant: 16669.290619947442
+    source: ./branin_constraint copy 27.py
+    type: intention
+  
+agents:
+  a_0: {}
+  a_1: {}
+  a_2: {}
+  a_3: {}
+  a_4: {}
+  a_5: {}
+  a_6: {}
+  a_7: {}
+  a_8: {}
+  a_9: {}
+routes:
+  default: 1
